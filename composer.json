@@ -1,0 +1,21 @@
+{
+    "name": "zantknight/yii2-jquery-locationpicker",
+    "description": "Jquery location picker component based on google maps for picking up location",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","jquery","location-picker"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ehsan Basri",
+            "email": "zantknight.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "com\\locationpicker\\": ""
+        }
+    }
+}
